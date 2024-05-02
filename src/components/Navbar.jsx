@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
@@ -19,12 +19,11 @@ const Navbar = () => {
                 <a class="nav-link" href="#">Link</a>
               </li>
               
-              
+             
             </ul>
             <form class="d-flex" role="search">
-            <Link to={'/register'}class="btn btn-outline-danger me-2" type="submit">Register</Link>
-
-                <Link to={'/login'}class="btn btn-outline-success" type="submit">Login</Link>
+              <Link to={'/Register'} class="btn btn-outline-danger me-2" type="submit">Register</Link>
+              <Link to={'/Login'} class="btn btn-outline-success" type="submit">Login</Link>
             </form>
           </div>
         </div>
@@ -33,5 +32,4 @@ const Navbar = () => {
     </>
   )
 }
-
 export default Navbar;
